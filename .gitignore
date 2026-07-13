@@ -1,0 +1,31 @@
+# Local configuration and credentials
+sites.local.json
+sites.local.*
+sites.json
+private/
+*.private.json
+*.private.md
+.env
+.env.*
+
+# Runtime state and logs
+kttv_state.json
+*.state.json
+*.tmp
+*.log
+logs/
+
+# Python and operating-system artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Local operational and reverse-engineering notes
+REVERSE_ENGINEERING.md
+操作手冊.md
+部署手冊.md
+
+# No dependency lock is needed for this standard-library-only project
+uv.lock

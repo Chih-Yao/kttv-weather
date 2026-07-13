@@ -1,0 +1,12 @@
+[project]
+name = "kttv-weather"
+version = "0.1.0"
+description = "Fetch weather data from the KTTV service"
+requires-python = ">=3.9"
+# No third-party dependencies — everything uses the Python standard library.
+dependencies = []
+
+[tool.uv]
+# Not an installable package, just runnable scripts: uv only provisions the
+# interpreter + (empty) venv, it does not try to build/install this project.
+package = false

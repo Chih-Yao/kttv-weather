@@ -1,0 +1,7 @@
+# No third-party packages required.
+#
+# kttv_client.py and fetch_weather.py are all pure Python standard
+# library (urllib, json, argparse, hmac, hashlib, ssl). Nothing to
+# `pip install`.
+#
+# Requirement: python>=3.9
